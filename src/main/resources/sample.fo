@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="http://www.w3.org/1999/XSL/Format">
+  <layout-master-set>
+    <simple-page-master master-name="A4-portrait"
+          page-height="29.7cm" page-width="21.0cm" margin="2cm">
+      <region-body/>
+    </simple-page-master>
+  </layout-master-set>
+  <page-sequence master-reference="A4-portrait">
+    <flow flow-name="xsl-region-body">
+      <block>
+        Hello, world!
+      </block>
+    </flow>
+  </page-sequence>
+</root>
